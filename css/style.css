@@ -294,7 +294,7 @@ form input:focus, form textarea:focus {
     position: fixed;
     width: 100%;
     z-index: 1000;
-    border-top: 5px solid #0097a7;
+    border-top: 5px solid #c29e55;
 }
 #header .logo, ul.menus li a, #header.fixedwrap ul.menus li.has-child a:hover:after, #header.fixedwrap ul.menus li.open a:after, #header.fixedwrap .sb-icon-search, #header.fixedwrap .sb-search-submit {
     -webkit-transition: all 0.6s ease 0s;
@@ -308,9 +308,11 @@ form input:focus, form textarea:focus {
 /*-----------------------------------------------------------------------------------*/
  #header .logo {
     margin-top: 30px;
+    margin-bottom: 30px;
+    width: 120px;
 }
 #header.fixedwrap .logo {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 /*-----------------------------------------------------------------------------------*/
 /*  2b.  MOBILE MENU
@@ -459,13 +461,13 @@ ul.menus li a {
     padding: 20px 20px;
 }
 ul.menus li a:hover, ul.menus li.active a, ul.menus li.open a {
-    background-color: #0097a7;
+    background-color: #c29e55;
     color: #ffffff;
 }
 ul.menus li.has-child a:hover:after, ul.menus li.open a:after {
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
-    border-top: 7px solid #0097a7;
+    border-top: 7px solid #c29e55;
     content:"";
     display: block;
     margin: 0 auto -7px;
@@ -478,6 +480,30 @@ ul.menus li.has-child a:hover:after, ul.menus li.open a:after {
 #header.fixedwrap ul.menus li.has-child a:hover:after, #header.fixedwrap ul.menus li.open a:after {
     bottom: -20px;
 }
+
+.eSchool-button {
+    font-family: 'Dosis', sans-serif;
+    border: none;
+    font-weight: 600;
+    padding: 20px;
+    margin-left: 40px;
+    float: left;
+    background-color: #a53525;
+    cursor: pointer;
+}
+
+.eSchool-button a {
+    color: #ffffff;
+}
+
+
+.eSchool-button a:hover {
+    background-color: transparent;
+    color: #c29e55;
+    border-color: #c29e55;
+
+}
+
 /* Sub Menu */
  ul.menus li.has-child ul.child {
     display: none;
@@ -543,7 +569,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     width: 100%;
     height: 100%;
     margin: 0;
-    s z-index: 10;
+    z-index: 10;
     padding: 20px 65px 20px 20px;
     font-family: inherit;
     font-size: 20px;
@@ -639,7 +665,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     display: block;
     margin: 30px 0;
     width: 50px;
-    border-top: 2px solid #0097a7;
+    border-top: 2px solid #2d186b;
 }
 .heading-block h2 {
     margin-bottom: 5px;
@@ -676,7 +702,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
 /*  3a.  BANNER
 /*-----------------------------------------------------------------------------------*/
  .banner {
-    background-color: #0097a7;
+    background-color: #2d186b;
 }
 .banner.large {
     padding: 60px 0;
@@ -1058,7 +1084,7 @@ ul.menus li.has-child ul.child li a:after, ul.menus li.has-child ul.child li a:h
     margin-top: 0;
 }
 .panel-group .panel-heading {
-    background-color: #00acc1;
+    background-color: #2d186b;
     border-radius: 0;
     padding: 20px 20px;
 }
@@ -1406,6 +1432,12 @@ ul.lesson li:first-child {
  .gallery {
     padding: 100px 0;
 }
+
+.description {
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    color: #ad3223;
+}
 #gallery {
     position: relative;
     margin: 0 -12px -12px 0;
@@ -1703,7 +1735,7 @@ ul.lesson li:first-child {
 /*  10.  FOOTER
 /*-----------------------------------------------------------------------------------*/
  #footer {
-    background-color: #0097a7;
+    background-color: #c29e55;
     padding: 100px 0;
 }
 /*-----------------------------------------------------------------------------------*/
