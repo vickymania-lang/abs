@@ -1743,6 +1743,7 @@ ul.lesson li:first-child {
 /*-----------------------------------------------------------------------------------*/
  .widget-footer .logo-footer {
     margin-bottom: 20px;
+    width: 80px;
 }
 .widget-footer p {
     color: #ffffff;
