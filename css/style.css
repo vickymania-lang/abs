@@ -12,7 +12,7 @@
     3c.  FEATURES SECTION
     3d.  FACILITY SECTION
     3e.  OUR TEACHER SECTION
-    3f.  OUR CLASSES SECTION
+    3f.  OUR ASSES SECTION
     3g.  FIRST DAY AT SCHOOL SECTION
     3h.  TESTIMONIAL SECTION
     3i.  OUR CLIENT SECTION
@@ -178,7 +178,7 @@ p {
     background-color: #0097a7;
     opacity: 0.6;
 }
-.overlay.color {
+/*.overlay.color {
     opacity: 0.5;
     background: #00f6ff;
     background: url(data:image/svg+xml;
@@ -190,7 +190,7 @@ p {
     background: -ms-linear-gradient(left, #00f6ff 0%, #007eff 25%, #7814ff 50%, #86297a 75%, #ff6600 100%);
     background: linear-gradient(to right, #00f6ff 0%, #007eff 25%, #7814ff 50%, #86297a 75%, #ff6600 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00f6ff', endColorstr='#ff6600', GradientType=1);
-}
+}*/
 .no-padding {
     padding: 0 !important;
 }
